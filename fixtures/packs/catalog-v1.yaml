@@ -1,0 +1,16 @@
+
+name: catalog-v1
+version: 1
+list:
+  url: /
+  item: "css:div.item"
+  fields:
+    title: "css:span.name"
+    href: "css:a @href"
+pagination:
+  next: "css:a.next @href"
+detail:
+  url_from: href
+  fields:
+    sku: "css:span.sku"
+    price: "css:.price"

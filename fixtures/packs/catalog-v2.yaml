@@ -1,0 +1,28 @@
+
+name: catalog-v2
+version: 2
+list:
+  url: /
+  item: "css:div.product-row"
+  fields:
+    title:
+      primary: "css:span.nm"
+      fallback: "xpath://div[@class='product-row']//b"
+    href:
+      primary: "css:a.detail @href"
+      fallback: "css:a @href"
+pagination:
+  next:
+    primary: "css:a.page-next @href"
+    fallback: "css:a[rel=next] @href"
+detail:
+  url_from: href
+  fields:
+    sku:
+      primary: "css:span.code"
+      fallback: "regex:(SKU-[A-Z0-9-]+)"
+    price:
+      primary: "css:span.amt"
+      fallback: "css:[data-price] @data-price"
+circuit_breaker:
+  max_consecutive_field_misses: 3

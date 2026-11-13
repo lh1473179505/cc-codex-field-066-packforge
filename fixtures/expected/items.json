@@ -1,0 +1,65 @@
+{
+  "template_broken": false,
+  "items": [
+    {
+      "sku": "SKU-A01",
+      "title": "Amber Vase",
+      "price": 1230
+    },
+    {
+      "sku": "SKU-B02",
+      "title": "Brass Hook",
+      "price": 880
+    },
+    {
+      "sku": "SKU-C03",
+      "title": "Clay Bowl",
+      "price": 450
+    },
+    {
+      "sku": "SKU-D04",
+      "title": "Desk Tray",
+      "price": 2100
+    },
+    {
+      "sku": "SKU-E05",
+      "title": "Elm Frame",
+      "price": 1675
+    },
+    {
+      "sku": "SKU-F06",
+      "title": "Felt Mat",
+      "price": 300
+    },
+    {
+      "sku": "SKU-G07",
+      "title": "Glass Jar",
+      "price": 990
+    },
+    {
+      "sku": "SKU-H08",
+      "title": "Hemp Bag",
+      "price": 1540
+    },
+    {
+      "sku": "SKU-I09",
+      "title": "Ink Stone",
+      "price": 3200
+    },
+    {
+      "sku": "SKU-J10",
+      "title": "Jade Box",
+      "price": 5400
+    },
+    {
+      "sku": "SKU-K11",
+      "title": "Knife Set",
+      "price": 2890
+    },
+    {
+      "sku": "SKU-L12",
+      "title": "Linen Cloth",
+      "price": 760
+    }
+  ]
+}
